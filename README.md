@@ -5,6 +5,9 @@
 Maven plugin to inherit the parent version in modules
 
 ## Usage
+
+Run it using `mvn version-inheritance:inheritVersion`
+
 ```xml
 <build>
     <plugins>
@@ -34,5 +37,6 @@ Maven plugin to inherit the parent version in modules
     <module>module2</module>
 </modules>
 ```
+
 
 * [Example Project](https://github.com/InventivetalentDev/VersionInheritancePlugin-Test)
